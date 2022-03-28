@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="components/cabeçalho.css">
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="components/tabela.css">
+    
+  </head>
+  <body>
+    <header>
+      <h1 class="title">
+        CALCULADORA-IMC
+        <div class="regua"></div>
+      </h1>
+    </header>
+    
+    <form class="formulario" action="" method="get">
+        <input type="text" class="Peso" placeholder=" Insira seu Peso" />
+        <input type="text" class="Altura" placeholder=" Insira sua Altura " />
+      <button class="botaoEnviar">Calcular</button>
+
+    </form>
+    <div id="resultado"></div>
+
+    <div class="titulo2" >
+      <h1 >TABELA IMC</h1>
+    </div>
+
+    <div class="itens">
+
+    <img src="./img/abaixo do peso.png" alt="">
+    <img src="./img/peso normal.png" alt="">
+    <img src="./img/obesidade grau 1.png" alt="">
+    <img src="./img/obesidade grau 2.png" alt="">
+    <img src="./img/obesidade grau 3.png" alt="">
+      </div>
+
+    <div class="corpo"></div>
+
+<script src="app.js"></script>
+
+
+<div class=" linha"></div>
+
+<section class="oqueeimc">
+  <h1>O que é IMC ?</h1>
+  <br>
+  <br>
+  <p> IMC significa Índice de Massa Corporal e é um parâmetro
+  utilizado para saber se o peso está de acordo com a altura, 
+  o que pode interferir diretamente na saúde e qualidade de vida da pessoa. 
+  Assim, a partir do resultado do IMC é possível saber também se a pessoa está 
+  dentro do peso ideal e também identificar sobrepeso, obesidade ou desnutrição em 
+  crianças, adolescentes, adultos ou idosos. </p>
+     
+  <h1 class = "comoecalculado"> Como é calculado? </h1>
+
+  <p>O peso deve estar em kg e a altura em metros, e o resultado é dado em kg/m2. 
+    Depois de obter o resultado, é possível verificar em que faixa o IMC se encontra, 
+    podendo indicar:
+    <br>
+    <br>
+  </p>
+    <li> <b>Magreza</b>, quando o resultado é menor que 18,5 kg/m2;</li>
+    <li><b> Normal</b>, quando o resultado está entre 18,5 e 24,9 kg/m2; </li>
+    <li><b> Sobrepeso</b>, quando o resultado está entre 24,9 e 30 kg/m2;</li>
+    <li><b> Obesidade</b>, quando o resultado é maior que 30 kg/m2.</li>
+
+    <br>
+    <br>
+
+
+</section>
+
+  </body>
+</html>

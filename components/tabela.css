@@ -1,0 +1,88 @@
+.itens{
+    padding: 50px;
+    border: #C211A1;
+    border-radius: 2px;
+    border-style: solid;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 837px;
+}
+
+.itens img{
+    margin-left: 55px;
+    margin-top: 29px;
+    display: inline-flex;
+    width: 350px;
+    height: 150px;
+
+}
+
+.titulo2{
+    color: white;
+    display: inline-flex;
+    margin-left: 450px;
+    font-size: 25px;
+}
+
+
+form{
+    padding: 50px;
+    display: inline-flex;
+    background-color: #0b2256;
+    height: 335px;
+    width: 1000px;
+    border-bottom-right-radius: 209px;
+    border-top-right-radius: 209px;
+   
+}
+
+.Peso{
+
+	padding: 18px;
+    width: 354px;
+    height: 16px;
+    border-radius: 12px;
+    outline: none;
+    font-size: 1.2rem;
+    background: #f5f5f5;
+    color: black;
+    position: absolute;
+    justify-content: center;
+    border-color: unset;
+    float: left;
+    top: 286px;
+    left: 33%
+
+}
+
+.Altura{
+
+	padding: 18px;
+    width: 354px;
+    height: 16px;
+    border-radius: 12px;
+    outline: none;
+    font-size: 1.2rem;
+    background: #f5f5f5;
+    color: black;
+    position: absolute;
+    top: 204px;
+    left: 33%;
+    border-color: unset;
+    justify-content: center;
+
+  
+
+}
+
+#resultado{
+    color: white;
+    display: inline-flex;
+    font-size: 47px;
+    background-color: #0b2256;
+    height: 90px;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
